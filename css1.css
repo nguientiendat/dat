@@ -1,0 +1,432 @@
+
+
+body{
+    max-width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:0px 50px 0px 50px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items:center;
+    height:80px;
+    padding:15px 15px 0px 15px;
+    margin:auto;
+    position: flex;
+    margin-top:-5px;
+    background-color: white ;
+    
+}
+#logo{
+   width:15%
+   /* margin-left:px; */
+}
+#main-menu{
+    display:flex;
+    list-style: none;
+    padding:0px;
+   
+}
+
+#main-menu>li{
+    /* display:inline-block; */
+    padding:15px 0px 15px 0px;
+    margin-right:13px;
+    
+}
+
+
+
+#main-menu> li> a{
+    color:black;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:600;
+    text-transform: uppercase;
+}
+.o3menu{
+    color:red;
+}
+#search{
+    width:240px;
+    height:40px;
+}
+.sub-menu {
+    /* display:none; */
+    position: absolute;
+    max-width:100%;
+    padding:23px 24px;
+    width:100%;
+    border:1px solid #E7E8E9;
+    left:15px;
+    background-color: white;
+    display:none;
+    
+}
+.tam{
+    display: flex ;
+}
+.sub-menu a{
+    text-decoration: none;
+    color:black
+
+}
+.sub-menu li{
+    list-style: none;
+}
+.item-list{
+    display:flex;
+}
+.item-list ul{
+    padding:0;
+}
+.listquanao{
+    margin-right:50px;
+}
+.listquanao li{
+    margin-bottom:16px;
+}
+
+#main-menu li:hover .sub-menu{
+    display:block
+}
+.icon{
+    display:block;
+    font-size:30px;
+    
+}
+#sale ul{
+    width:100%;
+    text-align:center;
+    margin:0px;
+    padding:0px;
+    display:flex;
+    padding:12;
+    margin-bottom:24px ;
+    margin-top:0px;
+
+}
+#sale li{
+    
+    flex: 1; /* Phần tử con mở rộng để điền vào không gian còn lại */
+    /* text-align: center;  */
+    /* border: 1px solid #ccc; */
+    list-style: none;
+    padding:16px;
+    
+    
+    
+}
+#sale li a{
+    text-decoration: none;
+    color:white;
+    font-weight:600 ;
+    
+
+}
+#sale1{
+    background-color: #D73831;
+}
+#sale2{
+    background-color: #DC633A;
+}
+#sale3{
+    background-color: #AC2F33;
+}
+#banner img{
+    width:100%;
+    border-radius:100px;
+    border:1px solid;
+    box-sizing: border-box;
+    padding:5px;
+}
+.tittle{
+    padding-top:10px;
+}
+.tittle p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 32px;
+}
+.option > ul {
+    width:100%;
+    text-align:center;
+}
+.option > ul > li{
+    margin-right:60px;
+    list-style: none;
+    text-align:center;
+    display:inline-block;
+    
+
+}
+/* .name a{
+    text-decoration: none;
+    font-size:20px;
+    color:black;
+}
+     */
+
+.option > ul > li > a{
+    text-decoration: none;
+    font-size:20px;
+    color:black;
+}
+.list-img{
+    display:inline-flex;
+    padding:7px;
+    margin:-7px;
+    width:100%;
+    height:auto;
+}
+.list-img img {
+    width:100%
+}
+.ticket{
+    position: absolute;
+    background-image: url(https://pubcdn.ivymoda.com/ivy2/images/bg_news.png);
+    z-index: 1;
+    background-size: 100%;
+    font-size:14px;
+    padding:7px 20px 7px 15px;
+    top:0px;
+    left:-7px;
+}
+.ticket span{
+    font-weight: 600;
+    color:white
+}
+.product{
+    margin-right:23px;
+    position: relative;
+}
+.badget{
+    position: absolute;
+    background-image: url(https://pubcdn.ivymoda.com/ivy2/images/badget.png);
+    top:10px;
+    right:0px;
+    z-index:1 ;
+    padding: 10px 10px 14px 10px;
+    font-size:14px;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.badget span{
+    color:white;
+    font-weight: 600;
+}
+.badget span sup{
+    font-size: 9px;
+}
+.product img{
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    /* display:none; */
+
+}
+.lazy{
+    position: relative;
+}
+
+.hover1{
+    display:none;
+}
+
+.lazy:hover .hover1{
+    display:block;
+    position: absolute;
+    top:0;
+    left:0;
+    /* opacity: 0; */
+}
+.product li{
+    list-style: none;
+}
+
+/* .product .infor ul li{
+    width:100%
+} */
+.check {
+    display:flex;
+    justify-content: space-between;
+    padding-top:10px;
+    padding-left:0;
+    margin-bottom:10px;
+    list-style: none    ;
+    margin-left:0px;
+}
+.product .name{
+    min-height: 32px;
+}
+.name {
+    margin-bottom:10px;
+    
+    line-height: 16px;
+    margin-bottom:10px;
+    
+}
+.name a{
+    min-height: 32px;
+}
+.name:hover a{
+    color:red;
+    
+}
+.infor a{
+    font-size: 14px;
+    text-decoration: none;
+    color:black;
+    font-weight: 100;
+}
+
+
+.product .infor ul li{
+    padding: 0px 5px;
+}
+.price{
+    display:flex;
+    width:100%;
+
+    justify-content: space-between;
+}   
+.price span ins {
+    font-weight: 600;
+    text-decoration: none;
+}
+.price span del {
+    font-size:14px;
+}
+.price a{
+    font-size:20px;
+}
+.seen{
+    width:100%;
+    text-align: center;
+    margin-top:20px;
+    padding-top:30px;
+}
+.seen a{
+    text-decoration: none;
+    color:black;
+    border: 2px solid black;
+    padding:15px;
+    border-radius: 20px;
+}
+.seen a:hover{
+    background-color: black;
+    color:white;
+}
+.ticket2{
+    position: absolute;
+    background-image: url(https://pubcdn.ivymoda.com/ivy2/images/bg-seller.png);
+    z-index: 1;
+    background-size: 100%;
+    font-size:14px;
+    padding:10px 30px 7px 15px;
+    top:0px;
+    left:-7px;
+    background-repeat: no-repeat;
+    color:white;
+    font-weight:600;
+}
+.badget2{
+    position: absolute;
+    background-image: url(https://pubcdn.ivymoda.com/ivy2/images/badget-02.png);
+    top:10px;
+    right:0px;
+    z-index:1 ;
+    padding: 10px 10px 14px 10px;
+    font-size:14px;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    font-weight:600;
+    color:white;
+}
+.trending{
+    width:100%;
+    margin-top:50px;
+}
+.trending img{
+    width:100%;
+    border-radius: 100px;
+    border:1px solid;
+    padding:5px;
+}
+.small-img{
+    width:100%;
+    display:inline-flex;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.small-img #img1{
+    margin-right:30px;
+}
+.small-img img{
+  width:100%;
+  border-radius:100px;
+}
+.line{
+   text-align:center;
+}
+.lazy2{
+    display:inline-flex;
+    width:100%;
+    margin-bottom:30px;
+    
+
+}
+.lazy2 img{
+    width:100%
+}
+.lazy2 a{
+    margin-right:20px;
+}
+.lazy2 a:last-child{
+    margin-right:0px;
+    
+}
+.line2{
+    text-align: left;
+}
+.fotter{
+    width:100%;
+    margin-top:50px;
+}
+.fotter ul{
+    width:100%;
+    display:flex;
+    padding-left:0px;
+    margin:-30px 10px 10px 0px;
+    justify-content: space-between;
+}
+
+   
+
+.fotter ul  li{
+    list-style: none;
+    /* width:100%; */
+    margin-right:30px;
+    flex-grow:0;
+    flex-shrink: 1;
+    max-width:300px;
+
+}
+.fotter ul li p{
+    font-size: 14px;
+
+}
+.mana .list-logo img{
+    display:inline;
+    width:20%
+}
+.gmail{
+    border:5px solid #C0C0C0;
+    border-radius: 20px;
+}
+.gmail h3{
+    padding:10px;
+}
